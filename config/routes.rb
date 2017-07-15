@@ -9,7 +9,6 @@ Rails.application.routes.draw do
 
   # Uncomment each route below ONE AT A TIME and debug.
 
-  # get("/flexible/sq", { :controller => "calculations", :action => "flex_square" })   Working example to mimic
   
   get("/zodiacs/aries",         { :controller => "zodiacs", :action => "ram" })
   get("/zodiacs/taurus",        { :controller => "zodiacs", :action => "bull" })
